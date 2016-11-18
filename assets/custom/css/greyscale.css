@@ -1500,6 +1500,10 @@ button, input, select, textarea {
 .timeline-body > p + p {
   margin-top: 5px; }
 
+.ed-timeline-bg01,
+.ed-timeline-bg01-01,
+.ed-timeline-bg02,
+.ed-timeline-bg02-01,
 .timeline-bg01,
 .timeline-bg01-01,
 .timeline-bg02,
@@ -1521,6 +1525,26 @@ button, input, select, textarea {
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out; }
 
+.ed-timeline-bg01 {
+  background: url("../images/edtimeline-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.ed-timeline-bg01-01 {
+  background: url("../images/edtimeline-1-01.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.ed-timeline-bg02 {
+  background: url("../images/edtimeline-2.jpg");
+  background-position: center;
+  background-size: cover; }
+}
+.ed-timeline-bg02-01 {
+  background: url("../images/edtimeline-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
 .timeline-bg01 {
   background: url("../images/timeline-1.jpg");
   background-position: center;
@@ -2356,6 +2380,6 @@ footer {
   background-image: url("../images/backgrounds/grey_wash_wall.png"); }
 
 .img-border {
-   border:1px solid #000;}
+   border: 1px solid #000;}
 
 /*# sourceMappingURL=style.css.map */
